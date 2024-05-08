@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -27,6 +28,9 @@ nav{
 
 .logo {
     grid-row: 1 / 2;
+    color: white;
+    padding: 20px;
+    font-size: 36px;
 }
 
 .links {
@@ -40,7 +44,12 @@ nav{
 .links ul {
     list-style: none;
     color: white;
-    font-size: 32px;
+    font-size: 28px;
+    padding: 10px;
+}
+
+.links li {
+    padding: 12px 10px;
 }
 
 main {
