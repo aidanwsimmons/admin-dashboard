@@ -227,3 +227,32 @@ main h4, main h3 {
     border-bottom: 2px solid lightgray;
 }
 
+.trend {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.trend img{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.handle {
+    padding-left: 30px;
+}
+
+.handle span {
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.handle p{
+    color: rgb(80, 80, 80);
+    padding-top: 4px;
+}
+
