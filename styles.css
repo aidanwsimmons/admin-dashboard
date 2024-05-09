@@ -207,6 +207,13 @@ main h4, main h3 {
     gap: 30px;
 }
 
+@media screen and (max-width: 1400px) {
+    .projects {
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: 1fr;
+    }
+}
+
 .project {
     background: white;
     border-radius: 10px;
