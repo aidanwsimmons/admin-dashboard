@@ -20,13 +20,34 @@ header{
     display: grid;
     grid-template-rows: 1fr 2fr;
     gap: 10px;
-    padding: 10px 30px;
+    padding: 12px 30px;
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
 .header-top {
     display: grid;
     grid-template-columns: 3fr 2fr;
+    padding-left: 36px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search svg {
+    fill: gray;
+    height: 25px;
+    width: 25px;
+    padding-right: 20px;
+}
+
+.search input {
+    border-radius: 20px;
+    height: 30px;
+    width: 85%;
+    background-color: rgb(222, 228, 238);
+    border: 1px solid rgb(158, 158, 158);
 }
 
 .header-bottom {
