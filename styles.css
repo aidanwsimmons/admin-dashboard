@@ -83,6 +83,7 @@ nav{
     display: flex;
     align-items: center;
     font-size: 30px;
+    cursor: pointer;
 }
 
 .logo svg {
@@ -90,6 +91,7 @@ nav{
     height: 50px;
     width: 50px;
     padding-right: 20px;
+    cursor: pointer;
 }
 
 .links {
@@ -112,6 +114,7 @@ nav{
     height: 30px;
     width: 30px;
     padding-right: 30px;
+    cursor: pointer;
 }
 
 
@@ -119,6 +122,7 @@ nav{
     padding: 12px 10px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 main {
@@ -172,7 +176,7 @@ main {
     border-radius: 10px;
     border: none;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    padding: 15px;
+    padding: 30px;
 }
 
 .announcements {
@@ -189,6 +193,7 @@ main {
 .announcements p{
     color: gray;
     font-size: 16px;
+    padding-bottom: 20px;
 }
 
 .announcements div:not(:last-child) {
