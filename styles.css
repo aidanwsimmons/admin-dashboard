@@ -76,8 +76,20 @@ nav{
 .logo {
     grid-row: 1 / 2;
     color: white;
-    padding: 20px;
-    font-size: 36px;
+    padding: 32px;
+}
+
+.logo h3{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.logo svg {
+    fill: white;
+    height: 50px;
+    width: 50px;
+    padding-right: 20px;
 }
 
 .links {
