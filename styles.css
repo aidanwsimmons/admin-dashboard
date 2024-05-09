@@ -207,10 +207,13 @@ main h4, main h3 {
     gap: 30px;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1200px) {
     .projects {
         grid-template-rows: repeat(6, 1fr);
         grid-template-columns: 1fr;
+    }
+    .announcements, .trending{
+        max-height: 600px;
     }
 }
 
