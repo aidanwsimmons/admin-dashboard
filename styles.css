@@ -115,6 +115,7 @@ header{
     font-weight: 500;
     border: none;
     cursor: pointer;
+    margin-right: 12px;
 }
 
 nav{
