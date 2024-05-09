@@ -31,7 +31,14 @@ header{
 
 .header-bottom {
     display: grid;
-    grid-template-columns: 1fr 5fr 3fr;
+    grid-template-columns: 1fr 7fr 3fr;
+    align-items: center;
+}
+
+.header-bottom img{
+    height: 100px;
+    width: 100px;
+    padding-left: 30px;
 }
 
 .greeting {
@@ -46,6 +53,7 @@ header{
 
 .greeting h2 {
     font-size: 28px;
+    padding-top: 6px;
 }
 
 .btns {
@@ -63,6 +71,7 @@ header{
     font-size: 16px;
     font-weight: 500;
     border: none;
+    cursor: pointer;
 }
 
 nav{
@@ -234,10 +243,9 @@ main h4, main h3 {
 }
 
 .trend img{
-    height: 65px;
-    width: 65px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
-    border: 1px solid gray;
     cursor: pointer;
 }
 
